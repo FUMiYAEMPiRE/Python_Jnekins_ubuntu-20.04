@@ -29,4 +29,5 @@ RUN sudo apt install -y \
 
 
 RUN sudo update-locale LANG=ja_JP.UTF-8
-VOLUME /var/jenkins
+RUN pip3 install -r requirements.txt
+VOLUME /var
