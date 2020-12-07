@@ -1,0 +1,13 @@
+chromedriver-binary==87.0.4280.88
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+matplotlib
+numpy
+pandas
+Pillow
+pydrive2
+seaborn
+selenium
+slackbot
+slacker
