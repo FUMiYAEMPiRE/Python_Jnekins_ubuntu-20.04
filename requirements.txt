@@ -11,3 +11,4 @@ seaborn
 selenium
 slackbot
 slacker
+python-dotenv
