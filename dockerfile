@@ -27,7 +27,9 @@ RUN sudo apt install -y \
     google-chrome-stable
     
 
-
 RUN sudo update-locale LANG=ja_JP.UTF-8
+ARG project_dir=/var
+ADD requirements.txt $project_dir
+WORKDIR $project_dir
 RUN pip3 install -r requirements.txt
 VOLUME /var
