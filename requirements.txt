@@ -12,3 +12,5 @@ selenium
 slackbot
 slacker
 python-dotenv
+pprint
+requests
