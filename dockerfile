@@ -31,5 +31,6 @@ RUN sudo update-locale LANG=ja_JP.UTF-8
 ARG project_dir=/var
 ADD requirements.txt $project_dir
 WORKDIR $project_dir
+RUN timedatectl set-timezone Asia/Tokyo
 RUN pip3 install -r requirements.txt
 VOLUME /var
